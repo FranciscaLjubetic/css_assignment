@@ -5,6 +5,27 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+header {
+    background-color: rgba(31,41,56,255);
+    border-color: rgba(31,41,56,255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#proletarian_navbar {
+    max-width: 900px;
+    display:flex;
+    color: white;
+    padding: 1%;
+    flex-grow: 1;
+   
+}
+
+#proletarian_navbar div:nth-of-type(1) {flex-grow: 1; font-weight: bolder;}
+#proletarian_navbar div:nth-of-type(2) {flex-grow: 4;}
+#proletarian_navbar div:nth-of-type(3) {flex-grow: 1; text-align: right;}
+#proletarian_navbar div:nth-of-type(4) {flex-grow: 1; text-align: right;}
+#proletarian_navbar div:nth-of-type(5) {flex-grow: 1; text-align: right;}
 
 .container{
     display:flex;
@@ -20,6 +41,7 @@ section{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0;
+
 }
 
 .first_block{
@@ -28,12 +50,18 @@ section{
     align-items: center;
 }
 
+.first_block_boxes_container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: center;
+}
+
 .first_block_boxes{
     flex-grow: 1;
-    max-width: 400px;
+    max-width: 450px;
     color: white;
-    
-    padding: 5%;
 }
 
 .first_block_text{
@@ -45,12 +73,11 @@ section{
 #first_block_left_main_title{
     font-size: 48px;
     font-weight: bolder;
-    margin-bottom: 0;
 }
 
 .first_block_inner_square {
     background-color: rgba(109,116,125,255);
-    min-height: 12vh;
+    min-height: 15vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,7 +89,6 @@ section{
     display: flex;
     align-items: center; 
     text-align: center;
-
 }
 
 .first_block_blue_button {
@@ -72,6 +98,24 @@ section{
     text-align: center;
     border-radius: 10px;
     margin-top: 5%;
+}
+
+@media only screen and (max-width: 999px){
+    .separate{
+        margin-bottom: 3%;
+    }
+  }
+
+@media only screen and (max-width: 999px){
+    #first_block_left_main_title {
+        margin-top: 10%;
+    }
+  }
+
+@media only screen and (max-width: 999px){
+    .first_block {
+        min-height: 100vh;
+    }
 }
 
 .second_block{
@@ -96,6 +140,11 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    height: max-content;
 }
 
 
@@ -106,30 +155,95 @@ section{
     border-color: #3b82f6;
     height: 170px;
     width: 170px;
-}
-figure {
-    width: 170px;  
-    align-items: baseline;
+    margin-left: 7px;
 }
 
-figure span{
+figure {
+    width: 190px;  
+    align-items: baseline;
+    margin: 10px;
+    justify-content: center;
+}
+
+figure p{
     max-width: 170px;
-    height: fit-content;
-    text-overflow: ellipsis;
+    overflow-y: scroll;
 }
 
 .third_block {
     background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
 }
 
-#third_block_inner_paragraph{
-    max-width: 550px;
+#third_block_inner_paragraph {
+    max-width: 780px;
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin:5%;
 }
+
+#third_block_sign {
+    font-weight: bolder;
+    margin:5% 10%;
+    text-align: right;
+}
+
+.fourth_block {
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_block_text h1, p{
+    margin: 0% 5%;
+}
+
+@media only screen and (max-width: 726px){
+    .fourth_block_text h1, p{
+       text-align: center;
+    }
+  }
 
 .fourth_block_inner_square {
     background-color: #3b82f6;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2% 5%;
+    flex-wrap: wrap;
+    margin-top: -5%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
+
+.white_border {
+    border-style: solid;
+    border-color: white;
+    margin-top: 3%;
+}
+
+.fourth_block_button_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 726px){
+    .fourth_block_button_box{
+       margin-bottom: 2%;
+    }
+  }
 
 footer{
     background-color: #1f2938;
+    color: white;
+    min-height: 10vh;
+    margin-top: -5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
