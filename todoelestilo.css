@@ -3,6 +3,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -31,19 +32,18 @@ section{
     flex-grow: 1;
     max-width: 400px;
     color: white;
+    
     padding: 5%;
 }
 
 .first_block_text{
     text-align: left;
-    font-family: 'Roboto', sans-serif;
     max-width: 100%;
     margin:0;
 }
 
 #first_block_left_main_title{
     font-size: 48px;
-    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     margin-bottom: 0;
 }
@@ -62,6 +62,7 @@ section{
     display: flex;
     align-items: center; 
     text-align: center;
+
 }
 
 .first_block_blue_button {
@@ -73,10 +74,48 @@ section{
     margin-top: 5%;
 }
 
+.second_block{
+    justify-content: center;
+    align-items: center;
+}
+
+#second_block_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#second_block_main_title{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: bolder;
+}
+
+#second_block_cards_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 .image_container{
-    border-radius: 10px;
+    border-radius: 12px;
     border-style: solid;
+    border-width: 3px;
     border-color: #3b82f6;
+    height: 170px;
+    width: 170px;
+}
+figure {
+    width: 170px;  
+    align-items: baseline;
+}
+
+figure span{
+    max-width: 170px;
+    height: fit-content;
+    text-overflow: ellipsis;
 }
 
 .third_block {
