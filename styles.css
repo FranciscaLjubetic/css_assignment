@@ -5,6 +5,14 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+main{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
 header {
     background-color: rgba(31,41,56,255);
     display: flex;
@@ -25,12 +33,6 @@ nav div:nth-of-type(3) {flex-grow: 1; text-align: right;}
 nav div:nth-of-type(4) {flex-grow: 1; text-align: right;}
 nav div:nth-of-type(5) {flex-grow: 1; text-align: right;}
 
-.container{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0;
-}
 
 section{
     width: 100%;
