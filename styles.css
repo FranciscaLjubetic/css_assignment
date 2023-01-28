@@ -167,7 +167,7 @@ figure {
 
 figure p{
     max-width: 170px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .third_block {
