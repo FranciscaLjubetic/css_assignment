@@ -35,7 +35,7 @@ header {
 
 section{
     width: 100%;
-    min-height: 46vh;
+    min-height: 50vh;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,7 +113,7 @@ section{
 
 @media only screen and (max-width: 999px){
     .first_block {
-        min-height: 95vh;
+        min-height: 96vh;
         align-items: end;
     }
 }
