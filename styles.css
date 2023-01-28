@@ -27,6 +27,11 @@ nav {
     flex-grow: 1;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
 nav div:nth-of-type(1) {flex-grow: 1; font-weight: bolder;}
 nav div:nth-of-type(2) {flex-grow: 4;}
 nav div:nth-of-type(3) {flex-grow: 1; text-align: right;}
