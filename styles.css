@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
 body{
     padding: 0;
@@ -7,12 +7,11 @@ body{
 }
 header {
     background-color: rgba(31,41,56,255);
-    border-color: rgba(31,41,56,255);
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-#proletarian_navbar {
+nav {
     max-width: 900px;
     display:flex;
     color: white;
@@ -20,11 +19,11 @@ header {
     flex-grow: 1;
 }
 
-#proletarian_navbar div:nth-of-type(1) {flex-grow: 1; font-weight: bolder;}
-#proletarian_navbar div:nth-of-type(2) {flex-grow: 4;}
-#proletarian_navbar div:nth-of-type(3) {flex-grow: 1; text-align: right;}
-#proletarian_navbar div:nth-of-type(4) {flex-grow: 1; text-align: right;}
-#proletarian_navbar div:nth-of-type(5) {flex-grow: 1; text-align: right;}
+nav div:nth-of-type(1) {flex-grow: 1; font-weight: bolder;}
+nav div:nth-of-type(2) {flex-grow: 4;}
+nav div:nth-of-type(3) {flex-grow: 1; text-align: right;}
+nav div:nth-of-type(4) {flex-grow: 1; text-align: right;}
+nav div:nth-of-type(5) {flex-grow: 1; text-align: right;}
 
 .container{
     display:flex;
@@ -90,7 +89,7 @@ section{
     text-align: center;
 }
 
-.first_block_blue_button {
+.blue_button {
     background-color: #3b82f6;
     width: 130px;
     padding: 10px;
