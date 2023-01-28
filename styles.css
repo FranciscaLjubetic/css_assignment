@@ -105,6 +105,13 @@ section{
     margin-top: 5%;
 }
 
+.first_block a, .fourth_block_button_box a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 @media only screen and (max-width: 999px){
     .separate{
         margin-bottom: 3%;
@@ -227,6 +234,7 @@ figure p{
 
 .white_border {
     border-style: solid;
+    border-width: 2px;
     border-color: white;
     margin-top: 3%;
 }
