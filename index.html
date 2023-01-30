@@ -5,101 +5,85 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
   <title>Second_Assignment_CSS</title>
 </head>
 <body>
+  <header>
+    <nav>
+      <a href="">Header Logo</a>
+      <a href="">Header Link One</a>
+      <a href="">Header Link Two</a>
+      <a href="">Header Link Three</a>
+    </nav>
+  </header>
   <main>
-    <header>
-      <nav>
-        <div><a href="">Header Logo</a></div>
-        <div></div>
-        <div><a href="">Header Link One</a></div>
-        <div><a href="">Header Link Two</a></div>
-        <div><a href="">Header Link Three</a></div>
-      </nav>
-    </header>
     <section class="first_block">
-      <div class="first_block_boxes_container">
-        <div class="first_block_boxes">
-          <h1 id="first_block_left_main_title" class="first_block_text">This website is awesome</h1>
-          <p class="first_block_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit at</p>
-          <a href="">
-            <div class="blue_button separate">
-              <span>Sign up</span>
-            </div>
-          </a>
-        </div>
-        <div class="first_block_boxes">
-          <blockquote class="first_block_inner_square">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, odit nobis fuga d</p>
-          </blockquote>
-        </div>
+      <div>
+        <h1 id="first_block_left_main_title">This website is awesome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit at</p>
+          <button type="button">
+            Sign up
+          </button>
       </div>
+      <figure>
+        <img src="./images/placeholder-01-dark.jpeg " alt="placeholder"/>
+        <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, odit nobis fuga d</figcaption>
+      </figure>
     </section>
     <section class="second_block">
-      <div id="second_block_container">
-        <h1 id="second_block_main_title">Some random information</h1>
-        <div id="second_block_cards_container">
-          <figure>
-            <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder" class="image_container">
-            <figcaption>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, maxime? Aliquam, dolor soluta volupta</p> 
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder" class="image_container">
-            <figcaption>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing
-              </p> 
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder" class="image_container">
-            <figcaption>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, maxime? Aliquam, dolor soluta volupta
-              </p>
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder" class="image_container">
-            <figcaption>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing
-              </p>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
+      <h2 id="second_block_main_title">Some random information</h2>
+      <figure>
+        <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder">
+        <figcaption>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, maxime? Aliquam, dolor soluta volupta</p> 
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder">
+        <figcaption>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing
+          </p> 
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder">
+        <figcaption>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, maxime? Aliquam, dolor soluta volupta
+          </p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./images/placeholder-square-500x500-200x200.jpeg" alt="placeholder">
+        <figcaption>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing
+          </p>
+        </figcaption>
+      </figure>
     </section>
     <section class="third_block">
-      <div>
-        <p id="third_block_inner_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum illo dignissimos reprehenderit inventore enim laborum, dolore temporibus, et saepe tempora nobis voluptates qui est at. Quibusdam at id odit.</p>
-        <p id="third_block_sign">- Thor</p>
-      </div>
+      <blockquote>
+        <p class="third_block_quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum illo dignissimos reprehenderit inventore enim laborum, dolore temporibus, et saepe tempora nobis voluptates qui est at. Quibusdam at id odit.</p>
+        <p class="third_block_sign">- Thor</p>
+      </blockquote>
     </section>
     <section class="fourth_block">
-      <div class="fourth_block_inner_square">
-        <div class="fourth_block_text">
-          <h1>Call to action! It's time!</h1>
+      <div class="fourth_block_inner_blue_square">
+        <div>
+          <h3>Call to action! It's time!</h3>
           <p>Sign up for our product by clicking that button right over there</p>
         </div>
-        <div class="fourth_block_button_box">
-          <a href="">
-            <div class="blue_button white_border">
-              <span>Sign up</span>
-            </div>
-          </a>
-        </div>
+        <button type="button">
+          Sign up
+        </button>
       </div>
     </section>
-    <footer>
-      <span>Copyright ©</span>
-    </footer>
   </main>
+  <footer>
+    <span>Copyright ©</span>
+  </footer>
 </body>
 </html>
